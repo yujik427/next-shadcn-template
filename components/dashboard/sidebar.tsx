@@ -8,6 +8,7 @@ import {
   Users,
   ShoppingCart,
   Settings,
+  FileText,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react"
@@ -17,6 +18,7 @@ const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { name: "Customers", href: "/dashboard/customers", icon: Users },
   { name: "Orders", href: "/dashboard/orders", icon: ShoppingCart },
+  { name: "Reports", href: "/reports", icon: FileText },
   { name: "Settings", href: "/dashboard/settings", icon: Settings },
 ]
 
